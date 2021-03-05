@@ -1,0 +1,71 @@
+@font-face {
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-family: "Roboto Regular";
+  }
+
+@media screen and (min-width: 1200px) {
+    .question__frame {
+      width: 944px;
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    .question__frame {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    .is-desktop {
+      display: none !important;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .is-mobile {
+      display: none !important;
+    }
+  }
+
+img {
+    border-style: none;
+  }
+
+  .question__frame-text {
+    width: 632px;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 35.35px;
+  }
+  
+  @media screen and (max-width: 1199px) {
+    .question__frame-text {
+      width: calc(100% - 60px);
+      margin: 0 auto;
+      font-size: 16px;
+      line-height: 23px;
+    }
+    .question__frame-text p {
+      margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1199px) {
+    .content__container img {
+      width: calc(100% - 40px);
+      margin: 0 auto;
+    }
+  }
+
+  h1 {
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 76.8px;
+    margin: 60px auto 30px;
+    font-family: "Roboto Regular";
+  }
+  @media screen and (max-width: 1199px) {
+    h1 {
+      padding-top: 40px;
+      font-size: 32px;
+      line-height: 38px;
+      margin: 0 auto;
+    }
+  }
